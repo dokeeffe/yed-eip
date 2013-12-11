@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yFiles for Java 2.11-->
+  <key for="graphml" id="d0" yfiles.type="resources"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="yed.palette.node.name" attr.type="string" for="node" id="d4"/>
+  <key attr.name="Palette ToolTip" attr.type="string" for="node" id="d5"/>
+  <key attr.name="url" attr.type="string" for="node" id="d6"/>
+  <key attr.name="description" attr.type="string" for="node" id="d7"/>
+  <key for="node" id="d8" yfiles.type="nodegraphics"/>
+  <key attr.name="yed.palette.edge.name" attr.type="string" for="edge" id="d9"/>
+  <key attr.name="Palette ToolTip" attr.type="string" for="edge" id="d10"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d11"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d12"/>
+  <key for="edge" id="d13" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0">
+      <data key="d4"><![CDATA[31e8434b-c340-4636-ac3e-ed7a5532078a]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="0.0" y="30.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="101.546875" x="-7.7734375" y="58.0">Content Enricher</y:NodeLabel>
+          <y:Image alphaImage="true" refid="1"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d4"><![CDATA[a0ed378f-348b-483e-ac45-a510518ce0f8]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="116.0" y="30.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="51.42578125" x="17.287109375" y="58.0">Channel</y:NodeLabel>
+          <y:Image alphaImage="true" refid="2"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d4"><![CDATA[34fe4379-ec19-45e0-96f2-ecc704b17b21]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="232.0" y="30.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="96.337890625" x="-5.1689453125" y="58.0">Message Router</y:NodeLabel>
+          <y:Image alphaImage="true" refid="3"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d4"><![CDATA[fea467c5-3767-4a73-9e78-9a225248af41]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="80.0" x="348.0" y="33.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="109.6796875" x="-14.83984375" y="51.0">Message Endpoint</y:NodeLabel>
+          <y:Image alphaImage="true" refid="4"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d4"><![CDATA[d497fe02-73c0-40d6-9fbb-2db2d838989a]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="50.0" x="458.0" y="30.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="54.05078125" x="-2.025390625" y="58.0">Message</y:NodeLabel>
+          <y:Image alphaImage="true" refid="5"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d4"><![CDATA[b372ac6c-da18-4593-8496-44954c9c3c0f]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="538.0" y="30.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="117.40234375" x="-15.701171875" y="58.0">Message Translator</y:NodeLabel>
+          <y:Image alphaImage="true" refid="6"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d4"><![CDATA[5aa82e1c-f058-4850-b5ac-27791872007a]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="654.0" y="30.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="99.25" x="-6.625" y="58.0">Pipes and Filters</y:NodeLabel>
+          <y:Image alphaImage="true" refid="7"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d4"><![CDATA[397894d8-aa91-4318-8c28-ef45eff0e041]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="770.0" y="30.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="132.255859375" x="-23.1279296875" y="58.0">Point to point channel</y:NodeLabel>
+          <y:Image alphaImage="true" refid="8"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d4"><![CDATA[5773382f-fff0-4e4a-abc9-97c13e8bf8f5]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="48.0" width="79.0" x="0.0" y="117.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="117.443359375" x="-19.2216796875" y="52.0">Dead letter channel</y:NodeLabel>
+          <y:Image alphaImage="true" refid="9"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d4"><![CDATA[fd5e7c16-1f02-4167-9321-9fce302e2f08]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="48.0" width="80.0" x="109.0" y="117.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="113.564453125" x="-16.7822265625" y="52.0">Guranteed delivery</y:NodeLabel>
+          <y:Image alphaImage="true" refid="10"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d4"><![CDATA[4b0bbcfe-a56c-485f-8311-ad31392c0aad]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="48.0" width="80.0" x="219.0" y="117.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="78.96484375" x="0.517578125" y="52.0">Message bus</y:NodeLabel>
+          <y:Image alphaImage="true" refid="11"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d4"><![CDATA[058cb3fe-5f7a-4553-b6bf-04663ff78acd]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="329.0" y="114.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="154.99609375" x="-34.498046875" y="58.0">Publish subscribe channel</y:NodeLabel>
+          <y:Image alphaImage="true" refid="12"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d4"><![CDATA[e2a3fb35-83ab-4863-ae39-f5bfcd46fcbc]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="79.0" x="445.0" y="117.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="89.18359375" x="-5.091796875" y="51.0">Event Message</y:NodeLabel>
+          <y:Image alphaImage="true" refid="13"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d4"><![CDATA[6afa0982-b059-49e6-b7f4-cbbfc3ef6749]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="80.0" x="554.0" y="117.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="83.248046875" x="-1.6240234375" y="51.0">Request reply</y:NodeLabel>
+          <y:Image alphaImage="true" refid="14"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d4"><![CDATA[ceb11ab0-f53f-4884-8820-0396332bae21]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="80.0" x="664.0" y="117.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="125.423828125" x="-22.7119140625" y="51.0">Correlation Identifier</y:NodeLabel>
+          <y:Image alphaImage="true" refid="15"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d4"><![CDATA[cbeb0225-6b49-401c-bdb9-b9ad10df5522]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="48.0" width="79.0" x="774.0" y="117.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="91.92578125" x="-6.462890625" y="52.0">Return address</y:NodeLabel>
+          <y:Image alphaImage="true" refid="16"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d4"><![CDATA[8b2e494d-a4df-42ed-b299-f4928a80dd42]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="0.0" y="198.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="128.171875" x="-21.0859375" y="58.0">Content based router</y:NodeLabel>
+          <y:Image alphaImage="true" refid="17"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d4"><![CDATA[8c98542b-0bb4-4c1a-8232-eec98effb36e]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="116.0" y="198.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="85.28125" x="0.359375" y="58.0">Message filter</y:NodeLabel>
+          <y:Image alphaImage="true" refid="18"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n18">
+      <data key="d4"><![CDATA[6a92cb14-f9d3-4b4b-aead-1a6a669ad4e6]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="232.0" y="198.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="93.759765625" x="-3.8798828125" y="58.0">Dynamic router</y:NodeLabel>
+          <y:Image alphaImage="true" refid="19"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d4"><![CDATA[02fcbf0e-7c2a-49c6-852c-078f607e2f79]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="348.0" y="198.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="78.87109375" x="3.564453125" y="58.0">Recipient list</y:NodeLabel>
+          <y:Image alphaImage="true" refid="20"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d4"><![CDATA[d405b23e-10a4-4eb1-9c38-10a683e2501d]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="464.0" y="198.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="45.525390625" x="20.2373046875" y="58.0">Splitter</y:NodeLabel>
+          <y:Image alphaImage="true" refid="21"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n21">
+      <data key="d4"><![CDATA[7eab2ce0-a227-4092-bd60-635574451408]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="580.0" y="198.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="69.71875" x="8.140625" y="58.0">Aggregator</y:NodeLabel>
+          <y:Image alphaImage="true" refid="22"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n22">
+      <data key="d4"><![CDATA[6e4bb55f-9812-41e9-9539-9c5ab05564fe]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="94.0" x="696.0" y="198.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="77.951171875" x="8.0244140625" y="58.0">Resequencer</y:NodeLabel>
+          <y:Image alphaImage="true" refid="23"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n23">
+      <data key="d4"><![CDATA[d2cc89fb-4b50-4e3f-9c6c-bd2cbcc8cf1b]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="0.0" y="282.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="181.849609375" x="-47.9248046875" y="58.0">Composed message processor</y:NodeLabel>
+          <y:Image alphaImage="true" refid="24"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n24">
+      <data key="d4"><![CDATA[918cbfde-3113-41b3-802a-d09430588152]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="116.0" y="282.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="73.697265625" x="6.1513671875" y="58.0">Routing slip</y:NodeLabel>
+          <y:Image alphaImage="true" refid="25"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n25">
+      <data key="d4"><![CDATA[131a7f17-777f-4e1e-bc21-8dce2c576da3]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="232.0" y="282.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="101.728515625" x="-7.8642578125" y="58.0">Content enricher</y:NodeLabel>
+          <y:Image alphaImage="true" refid="26"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n26">
+      <data key="d4"><![CDATA[b7828c52-ed95-4aca-9c39-87f982d083c5]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="348.0" y="282.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="81.4609375" x="2.26953125" y="58.0">Content filter</y:NodeLabel>
+          <y:Image alphaImage="true" refid="27"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n27">
+      <data key="d4"><![CDATA[78341f15-5db7-4f29-a13a-99aa084bcc42]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="464.0" y="282.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="74.306640625" x="5.8466796875" y="58.0">Claim check</y:NodeLabel>
+          <y:Image alphaImage="true" refid="28"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n28">
+      <data key="d4"><![CDATA[da00a69c-7db7-4289-b598-ac347636d68a]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="580.0" y="282.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="68.388671875" x="8.8056640625" y="58.0">Normalizer</y:NodeLabel>
+          <y:Image alphaImage="true" refid="29"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n29">
+      <data key="d4"><![CDATA[f5e03452-3de8-4105-b9a0-31d86177744f]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="80.0" x="696.0" y="285.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="136.533203125" x="-28.2666015625" y="51.0">Event driven consumer</y:NodeLabel>
+          <y:Image alphaImage="true" refid="30"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n30">
+      <data key="d4"><![CDATA[2436a2f4-12cb-4425-891b-a42ab07bf514]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="80.0" x="0.0" y="366.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="104.46484375" x="-12.232421875" y="51.0">Polling consumer</y:NodeLabel>
+          <y:Image alphaImage="true" refid="31"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n31">
+      <data key="d4"><![CDATA[eae76776-f2e6-4b50-9d1b-16e6f847aff3]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="48.0" width="80.0" x="110.0" y="366.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="129.126953125" x="-24.5634765625" y="52.0">Competing consumer</y:NodeLabel>
+          <y:Image alphaImage="true" refid="32"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n32">
+      <data key="d4"><![CDATA[0c2a6ef9-0c4f-4bcd-a8c7-d9ce56ecdbd2]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="80.0" x="220.0" y="366.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="118.84375" x="-19.421875" y="51.0">Message dispatcher</y:NodeLabel>
+          <y:Image alphaImage="true" refid="33"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n33">
+      <data key="d4"><![CDATA[49cb0d20-b7e1-48bc-a2b5-26c297c70d32]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="80.0" x="330.0" y="366.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="115.427734375" x="-17.7138671875" y="51.0">Selective consumer</y:NodeLabel>
+          <y:Image alphaImage="true" refid="34"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n34">
+      <data key="d4"><![CDATA[9652df48-7965-41f7-8b1b-041813c80c41]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="48.0" width="80.0" x="440.0" y="366.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="114.384765625" x="-17.1923828125" y="52.0">Durable subscriber</y:NodeLabel>
+          <y:Image alphaImage="true" refid="35"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n35">
+      <data key="d4"><![CDATA[c2dc9e4d-6fc8-4342-8327-efe91b8ebbde]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="80.0" x="550.0" y="366.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="117.8359375" x="-18.91796875" y="51.0">Transactional client</y:NodeLabel>
+          <y:Image alphaImage="true" refid="36"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n36">
+      <data key="d4"><![CDATA[63718467-017f-4b7c-8f60-f30b43bf1ced]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="80.0" x="660.0" y="366.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="116.986328125" x="-18.4931640625" y="51.0">Messaging gateway</y:NodeLabel>
+          <y:Image alphaImage="true" refid="37"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n37">
+      <data key="d4"><![CDATA[7c5c85d3-a943-425b-8bcf-82f60283e2da]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="47.0" width="80.0" x="770.0" y="366.5"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="98.705078125" x="-9.3525390625" y="51.0">Service activator</y:NodeLabel>
+          <y:Image alphaImage="true" refid="38"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n38">
+      <data key="d4"><![CDATA[6b18693e-f74c-4996-8d2a-7a9416048bb1]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="0.0" y="444.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="72.2734375" x="6.86328125" y="58.0">Control bus</y:NodeLabel>
+          <y:Image alphaImage="true" refid="39"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n39">
+      <data key="d4"><![CDATA[4738d2d5-4eba-42ae-8be8-c52e11dcce8d]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="116.0" y="444.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="43.890625" x="21.0546875" y="58.0">Detour</y:NodeLabel>
+          <y:Image alphaImage="true" refid="40"/>
+        </y:ImageNode>
+      </data>
+    </node>
+    <node id="n40">
+      <data key="d4"><![CDATA[3ccb0a39-2a2d-4cd5-a7b3-476aa77540e6]]></data>
+      <data key="d5"/>
+      <data key="d7"/>
+      <data key="d8">
+        <y:ImageNode>
+          <y:Geometry height="54.0" width="86.0" x="232.0" y="444.0"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="51.794921875" x="17.1025390625" y="58.0">Wire tap</y:NodeLabel>
+          <y:Image alphaImage="true" refid="41"/>
+        </y:ImageNode>
+      </data>
+    </node>
+  </graph>
+  <data key="d0">
+    <y:Resources>
+      <y:Resource id="1" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAAsUlEQVR42u3ZwQmAMAwF0IzeNdzJ&#13;
+nfQmIgi1SRXhBf7JS/uQmNaIiE3yuVZAmQy7bosMBOxk2NbaEbBgwYIFCxYsWLBgwYIFCxYsWLBg&#13;
+azacCdibDWcKLFiwYL+ErWr+YB8uHOwPYXvWDDY5o4ItGtp7+7k3tvBUBbYYVo/18TLHOnmBBes+&#13;
+1n2sPwhgBSxYsAIWLFhIYMGChQQWLFjJB+xbsOdb8/NDGQ9YsD+HVXW1A6THDvGijG8NAAAAAElF&#13;
+TkSuQmCC</y:Resource>
+      <y:Resource id="2" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAAz0lEQVR42u3aQQqCUBSG0Rbt1JEz&#13;
+d+AKHDl16Arc04skgoII6t4o7vngHwuHkOej00mSJEmSdN8wDO0yEkmwgJNhASfDhgO/elDVgf11&#13;
+YK8CqOmwlIJh6Thu+UDwSStJkiRJ36rZbXGo27aV3sVg3/djkbhQr6iRsH6tD7BRuG1d19ID+yXU&#13;
+CNi2LEvpPYP9FLfN81x6YP8Ndpqm0kuDHcex9LJgy+NmnQoOWP/RSjrH9n1felmwB27XdWWXdVdQ&#13;
+HvYRN/zq0OLvYyVJkvR2Z6neKNx23iLFAAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="3" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAA6UlEQVR42u3bQQ6EIAwFUI7ONeZO&#13;
+3snZTYiriYC28Ej+yoX4olirllLKKf25jgJlMuxxfuRGwE6GrbX+AhYsWLC7wLZ3brATUGcd53aw&#13;
+I2tUsH/AOmM7D9QaOwn0uk1VMBBUuZUQdDnYaPNNDxt1nmlhs8wvDWy2Kyk8bNY1Pyxs9uokHOwq&#13;
+dXQY2NWe+F6BbffxNOiyvYLZ3aXU/djR7+D1Y5P0RLd8g/DmUrB8PzZCSeeRVrklYMGCFbBgwQpY&#13;
+sGB9HwvW14b6sc5YsNZY/VgBC3Z9WOkL2Kdg23/s241yP2DBJoc1xo0v63oSrGhU5t4AAAAASUVO&#13;
+RK5CYII=</y:Resource>
+      <y:Resource id="4" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAvCAYAAAB0ZU25AAAArUlEQVR42u3ZQQqDMBCG0Rw91/BO&#13;
+3snSgsuC9c9i7Dzh25sHwWQchyd6BoJCgGOMNgGsDLgf298GcBHgnPMTQIAAAQIECBAgQIAAAW5L&#13;
+7rntAdM1PBbw/UIAQ8AzgCHgXUiAXwIYAl6FBHixsoC/LKJCABfi2cLh9gUYfkAAhkcYgOEhGmB4&#13;
+jWsPaBpjHmgibaQPECBAgAABAgQIECDApoAdAlgR8Ml/9+4GMOwFHt8rxDG8fTYAAAAASUVORK5C&#13;
+YII=</y:Resource>
+      <y:Resource id="5" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAADIAAAA2CAYAAACFrsqnAAADbElEQVR42u2azWsTYRCH91ZBEITi&#13;
+RxRE7cVWUFmKGj9ysbSXEEQKRURvK9pDhYIgBU8GEUxvHvIHeAzmIkjwqqdciyBIEE8e1IN4HveZ&#13;
+zaRLyHYTU7NvNAvDTt6k7Tw7v3lndlNPduFotVody+rwhvnhZrMp5XJZ5s7MSS6X03OpVJJGozE+&#13;
+ILVaTXzf18Cr1apUKhW1tbU1KRQKEgSB+yBA5PP5TvAbGxsdI0OAAThKGO9P5EQmACDoJON9YIBz&#13;
+EsQCTAPBkBmfHcUm4A26O1HQSMdk1E9W+LyTIP1kYyxA/omMWAH3kxFsVH1l4GInKLbefrLC9guI&#13;
+k7sWWSFALK1WAGa7drqzW8MjK9YY482RXjPK2WuoWQsYG0fMeI2NeoD0hv0FBEzjY2gEhPFl7Kbf&#13;
++EEWsjx2FWRs70cmIBOQDEHsThJjTsNolPa628fwB70ofx2EUebFs4uy9euW5Bqz8vLrDfWPvZ2T&#13;
+h5+uybcfd2Xh3bxc38qL/FzVNc/f4ybIavmsXPhyXiFEAvGbvgYssq4AChH6rPG5hSsH3QTx7k0n&#13;
+QpAN/Kefl/Q9/NvFk+5mhAAJ9M6Hq+pztkwYBDJrfF/OXlpJT1yoEYK2TGxDBLFMBJo1pHX08v7s&#13;
+QNhtmLnij4YwBkvvwQEN2CAiOUUQh9+fVp9M4JOVTKW1E4hJCwirA4MwOeGzm2GZZiRNWgTenYle&#13;
+EEjL2e0XaUVF3ltOBoHPmrO71qVHM6lywo+26PXspZUEUnsyr0GmQwRuS4uMUOQEDQSjCmegGFV0&#13;
+RwvHE2uWTnZ2in2QYdHWnQOZ3I9MQCYg/wkIz36ZwQY1J/sII0f9dVHq56akvpLb9jF81to+zdP3&#13;
+PDdBNqfCP/NxOTI/9GsF7eJSnBZ5PKtjidw/ElnoL67MuAny/ObxCMBgDsVgWDcYwEIYZ+/ZN1+F&#13;
+I8ibpQigGyYcTdSPwSy6KC1GlM1Te6OrT+BJMLHMZJoR5iSCZpeKG3eJCoJsCLgXDNkymYXvZ1oj&#13;
+BGxf8sQNQJUWV5tAd4JpZyZTaSUdZEmLHf0bTJLM2jCLJ/a5B9LZfttbaypMeM5UWjuB8PBBQaiT&#13;
+NBhXpdXpI9YnumF61IyzICqtHh1c1wyM+miDOSstZieuMv0BM5+A8SnuuM83xM6BcMT/ebNfG/T4&#13;
+DXf+SqflXR5mAAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="6" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAA60lEQVR42u3aTQ6DIBAGUI7ONXqn&#13;
+3snuGtNUC/JjHR/Jt3JReGlwGEkppUXa8zkSlMGwz+UhBwJ2MGzO+R2wYMGCBQs2LuyMOrDH4s6Y&#13;
+XzPsyNED9qz5gQULFixYsGDB/gHsXt9yJOzeb4aD/bbY3rAljehQW8HWgnvB9ga93B4740h765dX&#13;
+K/Bo0BBVQQ3wLNAw5dYv4K3nYAsnXtvGA1s58dItAqx/rD1WVaAqUMc6eekV3LxXoLulH+sLgjoW&#13;
+LFiwYMGCBRsM1v1YN7pdlQcrYMGClSZYaQvYWbDrE8b6oRwPWLAXhzX6jReocm/DZ4P2mgAAAABJ&#13;
+RU5ErkJggg==</y:Resource>
+      <y:Resource id="7" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAABGUlEQVR42u2ZwQmDMBhGM00X6AKZ&#13;
+xkk8ukAmcAVvLpAdPDpGikJAxRi1TfJj34PvJvbxEKutUgAAAAAAAAAAAAAgGZdpT/UjbJGw1pkk&#13;
+8+cfhmHeOI7uYX5lxeu6nte2rXuYH2EJS9g/Dds0jbPWOsniJxzlhfUHR+SLip9wLB/WPzL4+YMj&#13;
+8lnFjTFXHZP7aa1Xn9/3/WpqKxnaRj5r2BuOyf1iLmq6jJcLHdh13fJBOGvYKdhFx/JXbOgeGwgq&#13;
+6h574Cj3yysQVFTYA0d5YSNBRYifcOQFgTcvwhKWsITdF3/rV5L9Kqxgv7J/fXwbVrDfPv7tYjph&#13;
+VVXJdldcul+UvR9EUuyuuHQ/wuYOCwAAAAAAAAAAUJQP2ix0nqS1kbUAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="8" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAAVklEQVR42u3XQQoAIAgAQZ/uz4te&#13;
+0EUpcAY8B3uQjAAAAAAAAACAZzJznVGiKazAzWEFbg5bHvj20NQR9vfAVoGo7WFVKg6rju+WA8FJ&#13;
+CwAAAAAAAMNskBb1x4FW8vkAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="9" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAE8AAAAwCAYAAABQQCeSAAAA/klEQVR42u3YoQqEUBBG4XlkwWAy&#13;
+2YxWo9FisYj4Bj6Ti8LChoW9Kw7e+3sGThX9gl7HNub0GATggQceeAx44CWOZ2aP6jK8/WLLssi3&#13;
+P+e6rkehgEF48zxL9wn3D2AQ3jRN0rng7RcYx1E+N7xhGORzw+v7XrpvcKGAP/G6rpPOFa9tW+lc&#13;
+8Zqmkc4Vr65r+dw+GFVVyed6SC7LUjpXvKIopHPFy/NcPpfFwBswyzLpzqylgpdX7PLYJLOGBw+8&#13;
+i2/m4nfSY/AOmIBiArSU4GIDtNTgYgK0FOFiAUwa725A8MADDzzwwAMPPM55/GHwb8tW5cH7PPBE&#13;
+Bjzw7pkXVtTUPMz7CqoAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="10" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAwCAYAAACG5f33AAAA20lEQVR42u3Y0QnDIBDG8VvVHRzA&#13;
+Z4dwAJ9cwckuWPClhNjmbLH1/8FBMELghzE5RYkpAgGAAAII4B4JIQBoBewFoBFwFuT2gFZIAI2Q&#13;
+ABohZeZD/7EA/CAer/CEfRBA45cYQOO/4NaAdCI3AemFOY0BkKwIKCKXBeAArtZ6WStCygp4I7gz&#13;
+SADfXH2rrsIlAJ1zw/2vV58L4BOg915jjJpS0pyzllIe1a7bWLvX5gAIIIAAAggggAACCCCAAM7r&#13;
+hV8FpBceQP7amSAn0gACCCCABEAAAQSQAPj9HO1XJQmsMLbsAAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="11" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAwCAYAAACG5f33AAABB0lEQVR42u3bwQnDMAyF4Td07vEC&#13;
+WSEb5OyTR/BMLT0EWkiDaSrHln+Bjq2UD6rIhupBXApBACCAAJ5ECOHWB7SuL+vm97wT0LK+a8D3&#13;
++lY9qFbztRGP6lv0oJrN10KsWV89z59hZiCAAAII4CiAZ2/AFt7C/+7B5RrT/R7Y6iLNUW6koxyX&#13;
+Cd8+ILlPE8D9y1NKbvMXSJXixRhd5+sZc84fWYKoErxt29ynKeC6rq7zCK8UsQhwWRbXaQ44z7P7&#13;
+NPsJ74jTNLlOU8BR9j+zNebu66iWowvAlhHVA17LiOoFD8DOLmSZgQACCCCAAAIIIGsMizRHOWYg&#13;
+M/ASYMvBH20ABBDAkeMJFNxUnDstqHAAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="12" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAAq0lEQVR42u3Yyw3AIAwEUUqn86Dc&#13;
+I+ViJwa/kSiAyce7HgMAAAAPzDmv+zCRJJbgZLEEJ4s9TvDbRf86pBJcY0K3eGuripUpg8UK6+JW&#13;
+fbHqpUrrksQSC2INL2LFLQWB2Pxau8Pqbst1IYn2sZ9/of6xwWINr2CxUoG4pSCotMSCWGKJheEl&#13;
+bhGrIGy8KzhKrHVhM7kSS9KDZCtYLEvBYtkRt+qLZUSlBYA2LBhxMrdQSL8XAAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="13" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAE8AAAAvCAYAAACiwJfcAAAArklEQVR42u3YQQ6FMAgFQI7em38P&#13;
+YH9ibVQI8xJW7iYEKfGT2wkE8PrgRcSp4F1EG2OcqiJivAk3Q5shwrsBVw0wssFVAkyLVwEQXla8&#13;
+HTh48OCZefDg2fO8MJK+beG5qjyL6J63iVg58ODBgwcPHrzWeLN9cLVa42XubHjw4F36vjLb4P3B&#13;
+03nw4H2Gt7qnmXkbnanz4MGD1xHPD+PhzoEHD17KJbrtMbR64G3kALk/1axvwhXuAAAAAElFTkSu&#13;
+QmCC</y:Resource>
+      <y:Resource id="14" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAvCAYAAAB0ZU25AAAAvUlEQVR42u3ZQQ6FIAwFwB6dm/uT&#13;
+v3aheRDRTpMuNToi0FKHiKIQANwHsKqmZGvA+IYA+wCOMf4JMARMIAGeJMAQ8A4kwAu5FeDVh94x&#13;
+AS6A9Au/bQSaA63CAO0DVSJqYd0YgIsANVQDQAEQIECAAiDAhS88eZvWEnDm9TFgWku2BUy7GG0B&#13;
+0/5ZW8C0c9sWMD0zaAuYnla1BfzSme1rRiBAc6BV2D5QJQJQLfwEoG4MQIB3ATRUd/ogCLL4AYzw&#13;
+F1Uhx0r8AAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="15" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAvCAYAAAB0ZU25AAABC0lEQVR42u3byw6DIBRF0fvp/Hk7&#13;
+NdUqyIVzxG3CpKPtEh+QND4cXUdAAOAzACNiN6xORNQXtWGllN1wgFT3xVXcUdhRqApP3Re9cSpE&#13;
+l77IiJuN6NQXWXE1gVknMLLREjD7zbgs4G/giE+LzD5bwNFjecB/s48ZeCNuxOrgdS+RLeTygHwH&#13;
+shLRr0RWXAtLANmNYT/Qb0faDU7dByCAAAIIIIAALgOYsd83EjC7bwigcgbN7gMQwBcB1jznFIAt&#13;
+z2IATwCvfpMCboNarjCAALZ/R6kBW/umPgPvzICeK+zeB+CTAGtvJwArQs7CAXwooO1LxGk7Sr6U&#13;
+AxBAf0DlhursPv7q1XtBIOg7vt8x1A7Pxe9jAAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="16" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAE8AAAAwCAYAAABQQCeSAAAAn0lEQVR42u3bQQqAIBAF0Dlt97/B&#13;
+tLXASVxI1hsYaGkP/2CEkWq6AgE8eFvjRYQe6C5e5qGLhrcCb00E4G2JN7NGsb1BtCBXi4Q3FMHy&#13;
+WWxLvPao9mQCr3m/7iHYzDPzzDwzzzlPbH3bwoMHDx48ePDgaXjwfoT3jn+sdp7YwoNn5tl5YgsP&#13;
+npln54ktPHgaHjx438XTk/cwlOtT8HaoEy3NKQaHSY2SAAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="17" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAA6UlEQVR42u3bQQ6EIAwFUI7ONeZO&#13;
+3snZTYiriYC28Ej+yoX4olirllLKKf25jgJlMuxxfuRGwE6GrbX+AhYsWLC7wLZ3brATUGcd53aw&#13;
+I2tUsH/AOmM7D9QaOwn0uk1VMBBUuZUQdDnYaPNNDxt1nmlhs8wvDWy2Kyk8bNY1Pyxs9uokHOwq&#13;
+dXQY2NWe+F6BbffxNOiyvYLZ3aXU/djR7+D1Y5P0RLd8g/DmUrB8PzZCSeeRVrklYMGCFbBgwQpY&#13;
+sGB9HwvW14b6sc5YsNZY/VgBC3Z9WOkL2Kdg23/s241yP2DBJoc1xo0v63oSrGhU5t4AAAAASUVO&#13;
+RK5CYII=</y:Resource>
+      <y:Resource id="18" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAABHklEQVR42u3bsQ2DMBSEYc9IxQRM&#13;
+wAIMwADegIaGObKTo0MyQpQQ7LPyWzopIRAeX8GLLRJCCIk8z3UEUF6G/aRIbgTYl2GnaToCLLDA&#13;
+AgsssMDeKejN/C1s3/d7hmFI4zjuRc3znGKMe5ZlSeu6pm3bjui9tivaR/vrOB2v71FKXo/lrUDn&#13;
+zRjAmsOWvhbb5pVxgTWGrdmELX9u6fzAmsLW7BPWE4RcHLBGsLV7hP2UVnUAawLr0B+aWIRRLcBW&#13;
+hnXpDc0sG6qejAdsYVinvtDUQneeNOiWkFH1Wtu6rgMWWGCBBRZYYIEFFlhggQUWWGCBBRZYYIEF&#13;
+tuDzs8DyRDcBFlhgCbANwZJnAbYU7Pk/9ucPyf0AC2zjsIzfjS83+/mkc15+8gAAAABJRU5ErkJg&#13;
+gg==</y:Resource>
+      <y:Resource id="19" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAACBElEQVR42u3asU7DMBAGYL8IKzOP&#13;
+kAdg5hGQWOEBEFI3KjHnHZCYMjAxZGVnzMhjmF7QRa5r05ic41zyWzqVKipNPl2u9jnGjhjGGMQh&#13;
+UoZJgf209SaDr79pmj7atgWsJOxutxsCsICVi9evJ3t5ddG/AlYYlc9ZAhewh3BRU+P28Rqwodi/&#13;
+3Z3A3r/c2PrjYVTEsnuzsAxaVVWPQ+8ZFTVWANQ99v79jFmBJCimWwpAVw9bCnS1sKVBVwfrg/LF&#13;
+qIT9q2MzF2wsQzXA+n4DLH8gBJwbdim3/BRY3+8ENgQsBUtohEf/iyBpAp8DtEQTxvczdV1bCv+A&#13;
+CywFG1rH01Ly3OdSSkGuJgz1EVwXdov5mRioG5xloS+lL5yy3SENm6sJM8bpCLbrOksROkjbEOdK&#13;
+AWXE2CZH6KIll55cr3M0YejcXRt2i/kFayyDStfY0EXn+jGcuwnj+x3B+qA5ZgWc4Sm17z/Trbmb&#13;
+ML6fiiWt6gUCNhMBC1iUAsCiFAAWsOsrBXgSJgMsnoTBkzC6YHM1YVBjCzVhNjOPxZMwmG79Fvct&#13;
+RnbYUjF05RdyHmKwNIXhoP2vucPdeysZ4rA8qEOeuqm21gCsBtgSw90Bpb+1jMXDundJbLMTsBOy&#13;
+VVvWGi3Zqi1rjaZs1ZS1RlO2aspao+G2GjvFASxgAQtYwAIWsBPGD0e5bmeF4TDjAAAAAElFTkSu&#13;
+QmCC</y:Resource>
+      <y:Resource id="20" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAA90lEQVR42u3bwQ2AIAyF4Y7OGu7k&#13;
+TnozxJMRCn3tT9KTB/ELai3VzOwixuM9DBRn2PM6iB8BrDNsa+0JYIEFFtgqsP2bG1gHVK/rLAc7&#13;
+M0cF9gMsK3bwQnnGOoG+j5EVTAQl3RIETQcbbb7ysFHnKQurMj8ZWLU7KTys6jM/LKx6dhIONkse&#13;
+HQY22xffFtj+HKtB09YKvKtL0vXY6j0D4VbsqppoyR2ESLipX147soKS9VjyWICpFQBLdQtgdhCA&#13;
+Zc8LYPoKgE0DTO8WvVt0G9IfS0c3K5Z6rBouWQFlQwLYnbDEWAC7Crb/x74/SPwPYIEVh2XMGzef&#13;
+RpZNiIlxyAAAAABJRU5ErkJggg==</y:Resource>
+      <y:Resource id="21" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAAyElEQVR42u3ZUQ5EMBAG4Dl6r7F3&#13;
+cifeNiIbqWmL5WvyP0mk/VAzRETM0p7tCCiDYaf5I4mAHQxbSvkGLFiwYMGCBXu3xe4FbHKxewMs&#13;
+WLBgwYIFCxasOlbnBRYs2MF7XHZPfOwe2+ut3HJBHlkVjIStQQbb4ZH+dS6wCcQaYLDuWHvsK2Bf&#13;
+XRX0rmOPzNG3gspJ67y0tGDB+h7rDwJYsGDBggULFqw6Vh2r8wILFixYAXsVrLQF7Fmw645kfVDy&#13;
+AQv2z2GNfmMBHr1E4McNfIQAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="22" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAAxElEQVR42u3ZQQqEMAwF0By91/BO&#13;
+3snZiQgjQ2qLcV7hr1xUn6UmNSJik/6cR0AZDLtuiyQCdjBsa20PWLBgwYIFC/Y82VXAJie7GmDB&#13;
+ggULFixYsGDVsTovsGDf8rAztqKSe2wWYubHs2RV0PNCwHasfLCDYL/dO9gE4i/AYK1Ye+xfwKpj&#13;
+b6xjn9rElOy8KnSFzgrAgnUe6w8CWLBgwYIFCxasOhasgAULVsCCfTes9AXsLNhjR3S8KPmABVsc&#13;
+1rhvfABAHUTgwr8ofgAAAABJRU5ErkJggg==</y:Resource>
+      <y:Resource id="23" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAF4AAAA2CAYAAABOdS5ZAAAA3klEQVR42u3YQQ7CIBAFUI7ONbyT&#13;
+d6o707gwUjoM4Jvkr0pS+iBAKaWUQ+LzWQVKMvzzeEhAwCfD11rfAQ8evIAHL+DBC3jwMgP8L/cX&#13;
+4IPgvxV48ODB37Beg78JvhURPHjw4AfBO8cnwPd0csQPW0v7nkm0FPyVAWjtY0v7nu9fEr5lALaF&#13;
+H7Fe97xjS/jITedKwCcPBvjB8Gb8zXuANT7pJrJn097yHJ8B78/V3Tt48ODBgwe/7jkevIAHL+DB&#13;
+C3jwAh48ePDTwUtswM8Cf75FPD+UuIAH/+fwaly9ADkSQLUwIaxBAAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="24" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAABNklEQVR42u3cMQ6CMBTG8Y4mJi5O&#13;
+Tk4ewLAbT+ERXLwEo1foGbwAh/AOjBwDU5IOErFSXqHP/Jt8C8a89pcIfYIaY0xLpqc/DCiJYZ+t&#13;
+JRHxfnVdd2maBlhJ2LIsu1hrgQUWWGCBBRZYsRRFEdw3Ahs52W8DWGCBBRZYYIEFFliRybKPpfMC&#13;
+Fth/hJXu1e+P66LfFaSsPwpW+qq822+79xxPh0V2BSnrZwHrE1qgpvpZwYYWqKl+Utihif+a/jlQ&#13;
+U/2ksG5il9t5MOvN6uOC3PFPFxZN9bM6FQwtSGP9LGBDC9JYfzSs5D7SfRzH7CU11afzoqUFlvBc&#13;
+AbDcQQAWWGCBBRZYYIHluQI6L2CBJcACCyyJgCXTAuxcsL6bcb+19y+S+AA7F6z7Zwh3kExLVVXv&#13;
+sAzZ8QIu1faTj/e1iQAAAABJRU5ErkJggg==</y:Resource>
+      <y:Resource id="25" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAAo0lEQVR42u3a4QpAMBSA0fvoew3v&#13;
+5J34J0mazTDOre/nwkmyiIiYVN92Akpj2HEaVBDYxrAppSWwYMGCBQsWLFiwYMGCBQsWLFiwYMGC&#13;
+BQv2n7A534C+vL4p7NHkXFjP68GCBZt1YuuD7PX29e5YjwKwYJ+G9R5r52VLC1ZgwYIVWLBgBRYs&#13;
+WIEFC1ZgwYJVMazqAnsX7JkfHZQXWLCdw5rrZgahNOUwUbp+iwAAAABJRU5ErkJggg==</y:Resource>
+      <y:Resource id="26" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAAsUlEQVR42u3ZwQmAMAwF0IzeNdzJ&#13;
+nfQmIgi1SRXhBf7JS/uQmNaIiE3yuVZAmQy7bosMBOxk2NbaEbBgwYIFCxYsWLBgwYIFCxYsWLBg&#13;
+azacCdibDWcKLFiwYL+ErWr+YB8uHOwPYXvWDDY5o4ItGtp7+7k3tvBUBbYYVo/18TLHOnmBBes+&#13;
+1n2sPwhgBSxYsAIWLFhIYMGChQQWLFjJB+xbsOdb8/NDGQ9YsD+HVXW1A6THDvGijG8NAAAAAElF&#13;
+TkSuQmCC</y:Resource>
+      <y:Resource id="27" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAAArklEQVR42u3aTQ5AMBCA0Tl6r+FO&#13;
+7sROGmFjOuLnNflWEuEFpRERsSjffgSUYth5mXQhsMWwrbUtsGDBggULFixYsGDBggULFixYsG+C&#13;
+HbGeCfZk55kBFixYsGC/C5uZXMEmjh/swQmDLb69fw9b/WOFK7ZwQgI7GNYzdjCsyct7rC8vsNZj&#13;
+wQosWLACCxaswIIFK7BgwQrsw2CVC+xdsP1Kfr9R1wML9uWwxrixAuc8Av26Q7/bAAAAAElFTkSu&#13;
+QmCC</y:Resource>
+      <y:Resource id="28" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAABpklEQVR42u3aTUsCQRzH8T37isKj&#13;
+V89CvgHPEUkP16JHSrq11ME0Y7WSstCoi5fAILAg8AX0Drp06x8zsMPmQ4mza1nfgR/+VRD9sDvz&#13;
+33Edx3GE2Kd7OKBEDPsgLhkhwEYMu766bAIssMACCyywwAILLLDAAgsssMACC+wkwYaxnwnsgA+3&#13;
+GcACCyywwP5dWJvFFViL7w9snx8MbMSn97+HjfrGCo7YCBckYEOGZY4NGZbFiz6WKy9g2Y/9GZjH&#13;
+92JP+AchhDQ7nqRSKUkmkzp7hzvA2qbeKsrVbVl2c1uysbaic17z9Ov+0evXT28npgb2m8RiMVla&#13;
+yErnuW1y07iUdHpa2q9nOgpbPd6/VHWtgIO4wA44jedmZz7B+slkMjqqVtCL81lTq+kD2CFgW3dN&#13;
+icenxHVdA3taKemo+vgoLxfViq69UkFqjbKUG/vAjgqrnnenkD8A1nYqSCQSPVGdA1PBEIuXP3f6&#13;
+ua7XzOLVr8ft7nWB/aLdym1vGpRgu0UfywXC7wuXtNxtCCyw44AldgF2XLDBnfzgm2T0AAvshMMy&#13;
+whsfhZfXgfKI4lEAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="29" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAABCElEQVR42u3aXQ4CIQxGUZbONtyT&#13;
+exqfNMSgDv0bWy7J92SM8QRKYaa11g6iz/tooDjD3o8bEQRYZ9je+yvAAgsssMACCyywwAK7Lex4&#13;
+rAPWAHZ2lNsR2AV2NoBVwH5C3REXWGCpsdRYuoKifWxl7MtOXs9ZLf0N7Yr6lrSws1KhBfq3DTYc&#13;
+1mpzk862krCWf0q6nJmxi3XxLHBZWK8aexa3NKxlV7BaDkrA/vq+VZ+8soGlh42Y8ZKWK30fq13q&#13;
+2Z9QuMCOy41HM06wu+KGXBsCy31svicIwCphI1oZ7mN5EwZYYIEFFlhggQUWWGCBJcBeB0t0ATYK&#13;
+drzyGz8k8gALbHJYht14AKmKckxVDJ33AAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="30" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAvCAYAAAB0ZU25AAAAxUlEQVR42u3bQQ7CIBAF0Dk61/BO&#13;
+3qnGhcaNaBmqQB/J39OXKRQmjc1IjUAwEGBEnCIARwe8bpclA7ATYCnlGYAAAQIECBAgQIAAAQIE&#13;
+CDADeJ8QwCTgIwCTgP+CrM1/SsBfQr5emi4H2APym+qqIS4BmIF8h1O7vt8NuOchjsiIPZCpAI+s&#13;
+wk8wXSpwhlc4u0mcdg20CzcC+g5sBHQSaQR0FnYbAxAgQIAAAQIECBAgQIAAAQL0n0gAHB5w1uZU&#13;
+qosIMJcbHOVzy/8r4sIAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="31" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAvCAYAAAB0ZU25AAABCUlEQVR42u3aXQ6DIBBGUZbONrqn&#13;
+7smmJr4RFJjB+bkm89SE4KkF+o3l4Fq6CgSGAEspaQpAy4Df4xO2ABQCrLWeBSCAAAIIIIB5AXtn&#13;
+NQAH4Z58lhbwGncGRRLSJaDU0yQxvxCAbyK6B5QcLxzgf0K99U/jSwkHeNWunTws4A7I1nzv5u8O&#13;
+UBOyd34MB6gF2Tpf9u7DPaA05F10Pww4chMWShuwtUaGATT5BHr4CbMGTgJqnwXD7sKcAycB+Scy&#13;
+CbgzkA2fxmgmPOniLAvjuY70JSP5lE2llWBVKpQN0ZUbwdBKs0P0hZ++y0df+OUdm1c7AAQQQAAB&#13;
+BDANYIYC0CKg5+7ebAG4WD/F5PkNm7L2FgAAAABJRU5ErkJggg==</y:Resource>
+      <y:Resource id="32" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAwCAYAAACG5f33AAABD0lEQVR42u2aSw7DIAwFfXSu0Tv1&#13;
+TqlUqRWLlBg7FGMGyes4o4fxTw6O6wgIAJgHoIhsYQCMDvB5PFIaAG8CWEr5GgAB6IcCQKeitD4D&#13;
+8Ac8rd8AbMDT+L4dQGueB8CLa4oCjcojBhpe1ZZPvMInSurN87bNA3vVs0Ul8nHKqjYAVo7VIGdC&#13;
+Wxrg28EJ1zQVwDNFzoqrywP0gtSmNK0X/RKg9ici2F0pj7YySQewjpEjLd0Vtl7jnrLOrMDoAEe/&#13;
+sO4YGBVghOqGPHCnPDBSCbcUwIhNhPTdmH9/M11DlX7gQFXSkR4092UmwlSOuTCbCezGEAPZzmI/&#13;
+kA1VAIYDmN0AGBXgysMp81ALgACcai91UiYW2/wu3QAAAABJRU5ErkJggg==</y:Resource>
+      <y:Resource id="33" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAvCAYAAAB0ZU25AAABFElEQVR42u3bXRKDIAxGUZbONrqn&#13;
+7slOX5yOozTIRwhyneFV6ZGfxNC0cTVdCYJAgCmlJRqA0QHf2+uRDUARYM55bwACCOBwEAAb8Gr6&#13;
+DOAFnrXfABbwLH1fErA2SAbQsM4xhQUbBZuIYJcljDHGd6o+DQf8PtBr1D0yE/l98OisYnpAJaTX&#13;
+0hESsAayFI54vIjQgP8g78Zux3sodu3QgGeQCrzSiLXe3wRY8yM9Ws/aRm1uPBWgIvm3TFM5YMQ1&#13;
+UA14d32dehcujR7v1G/aOLA0rZYLY2bLQpbKhanKBUXkcxaA2p2VD6p80vevyFFU6lzeBJDCOkc7&#13;
+OFzE8TYAyUQABJD/iVw1AKMCRq3sda0aAtjWPgQo7MNwNvpMAAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="34" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAvCAYAAAB0ZU25AAABJElEQVR42u3Zyw3CMAyA4YyeNZiF&#13;
+FRgCiUFacYBDlYedp5P+lXxBQi2fTFzb7uCquhwEhgCdc7cIAK0Dvo7HlgFgI0Dv/T8ABBBAAAEE&#13;
+EEAAAewPGOsMABQ++PP9CcYoyCUBU3CjIZcD1OBdIbcA/N6gNd71/BuJOAXwFz3wUojbAWogQygx&#13;
+sNaIqe+YAMxB5rJP+nkJYO7VyBRgDLKk6krPQkl2pRBFgJIf3SO0gBK8EGAIJzW+nw5YsnNohZcq&#13;
+PJow/RcuyUAp3pQMXOEMrAHsfgZarcIjOpIlqnCL9k1z/m3zHtiyB9ZWX3phIwOFpaYxmkKx7TSG&#13;
+eeAiE+meWXeLnciovQhbOQABBBBAAAEEEEAAAbQMuHsAaBXQwnp0dABYGSewlePqhbyN9gAAAABJ&#13;
+RU5ErkJggg==</y:Resource>
+      <y:Resource id="35" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAwCAYAAACG5f33AAAA/klEQVR42u3aSw6EIAyAYY7O0bjZ&#13;
+TDLJJC6IFFu1j79JV+4+ENpq+xCqaBAACCCAkQFamyaAQrgxxjSliKEAe++/tAI8Yh1zBzEkoBZy&#13;
+hfR/nh7wKuQKaGcXpgDchQRQCRkWUApglTtlyypLAs4Qz0qXKyXNK4BPLIDkBgZQcf4BqLyBAVTW&#13;
+gDOks2fpAC26kJKAlj1wOUDLSYwU0GUhHWWc5W6Y4Akw5EDVI6B6Ad5otwAEkFcYQAABBBDAYoAe&#13;
+8ctNYwB0VlOWm0gD6KzLSftZE8AgkCl/7Ui7A58ATH0G3glY4ha+A7BUHWgJWLITsQAs3QtnDAAB&#13;
+BBDAyvEF0SCb6lRlXWIAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="36" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAvCAYAAAB0ZU25AAABGUlEQVR42u3a2w3CMAyF4YyeNZiF&#13;
+FRgCiUGKQOIFpVDHSX3JX+m8u5/SS2KXjUt1FQgcAZZSlgmAngFv2yVtABwEWGt9B8CVAKXvqeUB&#13;
+v0Gu94coM0DdA2rAJKDpAGeh/cMMD3g2XAsyLKAlXO9qdAFoveo0q9Ec0COcBNEUcPaXtTcSxJSA&#13;
+2polK9EMsFXoqwAADwDuFfkpQgM5C3AP0S1gL2Z6wF8F7gFKIGcCthBDAR6BBFCQEIDSm7IIgAPg&#13;
+eIR5B/IV5j8wGyA7kY69sHY/vDQgpzGcB3IiHepE2jtiiJ6I18ZSqK6ct76wtBXLZEKmyYQzIVPP&#13;
+xoyezFp2OmvUbCDzgUyoAgigFeAKAdAjYLTu3ogAqMwTT9JrV8nFagUAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="37" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAvCAYAAAB0ZU25AAAA20lEQVR42u3aSw6CMAAE0B6da3gW&#13;
+r+AhTDwIhoXGRCGVQdO0j2QWrKAvw6+0zLZoKwgaAiylDBGArQNe5lOXAXgQ4DRNzwAE+D7ItYHX&#13;
+ZFjANYRl/3y9VWfr/LsFfEUCuKN1WwAAK1oHMGwdwLB1AMPWAQxbBxDgZ8DlAABDwEcAhoB7IQGu&#13;
+BGAIWAsJsDLdAH4z6F8E4EFwLmH3QE9h74G9AfoS2QnoW9hsDMDhZ6QB/mlaH2DYRoBhGwGGbQQY&#13;
+thGg1VnWB1qhChDg2IC9B2CrgC393ftXAIa5AwT9BplLDu5HAAAAAElFTkSuQmCC</y:Resource>
+      <y:Resource id="38" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFAAAAAvCAYAAAB0ZU25AAAA3ElEQVR42u3ZUQ6DIAwAUI7ONXan&#13;
+3cllS5aYxamAYDcfSb8kEl9qlZImo2kkBIEAU0qXCYCRAe/T7W8D4EGAOedXAAQIECBAgAABAgQI&#13;
+ECBAgHPA5wIAGwHfAbARsBZydEnYWu90wBLIeQNzJN7aemEAtyCXusA9s+vz2re54QCXINda6UfU&#13;
+rxKsYsCSh+4RZ5xvlGRtaMCRGTi/16EZeMYrPLIG7sX6iRroK1wJ6D+wEtBOpBLQXlg3BiBAgAAB&#13;
+AgQIECBAgAABAgTYE/AKATAiYKTTvWGniADb4gFYlIYElxMLrgAAAABJRU5ErkJggg==</y:Resource>
+      <y:Resource id="39" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAACb0lEQVR42u2av2oCQRjE8wZ2tna+&#13;
+gIiIiIrKIdYRxDpCHsDCIpUp0wZikS7YmDKWBxYpre3sfYuNs+Q79g7vH+Sit87AkJDcwe1vv53d&#13;
+2727O4qiKIqiKIqiKIqizslxHFUqla7G5XJZrddrlVugx+NRFYtF1ev11Gw2uxpPp1P9XJPJJJ9w&#13;
+URloxOFwuDrvdjtVKBTUfr/PH1xUxXK59DUIDdlsNvrvWdl13URw0fHz+TyfYFerldcQNBjDb3g/&#13;
+zNyLxUJ3YhxYjKhcg8XQG41G/wJVHBwtVoJFI6MgdJ+6qj/r/zncqKq1Aixm47DGDx4GqrKraA/H&#13;
+6eE5j07o/6Ly1nqwneeOBxa/p4HafG/q+8Kq/abB1j/rHtjGRyMxVLPS2y9tgg1a4MC1r1pisOgE&#13;
+ua/12iLYYD4CjFm1ScGaHYJIINjAakCDeWumAiv3idExBGsY2SiTVvW7mhisxID8JNgQQKjAmltL&#13;
+vOSSSpXKJdiABSZm+KRgJZcx0ZkZTbCBykMEmMuuqAW/GR9YCRDsGbAyjGXtKrEQ92orHYDrCPYM&#13;
+WAxlycngRBYWAbjWnOQI1gALgAIHuaozdexfevmu3VZ9S6vgi4SOk23V94qMzDbBYjMGEHGaIc9k&#13;
+JVivyn6higUchrkJEh2B63EvLOBg6SRUr4wCecUVsNhdOz2SNs69rI0CE0zYvoHAj5vMJJu9UXCC&#13;
+Kzl9c2CjbAJKuxljZvbNRUGS/VW9qTJOtyeLvDYzG77p3a0sbX3Fxh3NZGU5mrE2Yy99mGgt2Esf&#13;
+f1sXBfxgIwPxE6OMxI/iMhY/46QoiqIoiqIoiqKoXOkH7JUaF5u/3GUAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="40" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAACJ0lEQVR42u2cPUjDUBSFsygiKIUi&#13;
+lA5SFynoIAoOHaTg0kVQBAcd7OCgICI6qCBYlzooFESQTN3sIggu1qmbLoKjY8aMjo5PzoNXaodC&#13;
+kpuYNidwSEmhNF/vfffvNZZlWYoKru7DIpSQwX4om/Ihw89xHC3XdQlWEmylUtGybZtgCZZgCTYx&#13;
+YJ+dqsrPT6qHz3OClYSazaX1/Y2lRkOBmziwbz93aiKbEslRy6clgjWCdeK+hkeG2jd/VNtQduvY&#13;
+s2D5iQdbfz9RC8VpbbGv7rW6fTnQcC/q21xj/erx61Jb10q5oFrftfZ1AGZW4FNw83RmXFsq0y0h&#13;
+14ebw0LxmnmsUOTfv1rTrs8CQUjF1Tm1ebjMykvS9U20D6uaSiRYVFK9EnaC9SAEpkJppm2tbMII&#13;
+1fs4r+8uxcL1BwIsoOK7YT1l21BAcHezjqJWZz9WKDdFaZrLZ3o2PwjWg26e9nTU76zzCTZg1IfL&#13;
+43x2v8XRjJSwnmJ8wpmXkFDnAyrW1X5y/9iCRdQ3bt9vrh9rsHB7JPwcfwu6PlIoVFD96vqxAAuI&#13;
+qPHx+bOLU9pSq40d7isIKgz1OsfIUY9OYr+vAJE7yXtfQ9tXgF/ezzzeWEunomz7mdH3wO0rQIna&#13;
+fWNRB5eB3VdgrB2Nlf/slrFtyHSLIliCJViKYAmWYCmCJViCpbyBpYKJYKMCax5cgP/amzcp/yLY&#13;
+qMDiyRC4SAVTs9n8C5aH7PEL6ChoPhnm71QAAAAASUVORK5CYII=</y:Resource>
+      <y:Resource id="41" type="java.awt.image.BufferedImage">iVBORw0KGgoAAAANSUhEUgAAAFYAAAA2CAYAAABdom6tAAABhElEQVR42u3cMUsDMRjG8QzWilAR&#13;
+uoiTOHQRpy6lk9DFQVcHJ10EN6l0E3pdulTo0iXg4uIqOJ2Tg+Ak+BFuvI/gGHkPctjTqZceif4P&#13;
+niVd0l/fJm/J9ZRSypDyKV4KlCXDvhtNFoj1S5IkS5qmwLqEjaIoi9YaWGCBBRZYYIEFFlhggQUW&#13;
+WGCBBRZYYIEFFlhggQUWWGDzPCVj0z3cy+a339k1d68DYF2kfdCaO2Jubm2Yt8/Z34G9GB7963sG&#13;
+5ANeCqx8JfXLdeXZ3mn+eJPP6YSloGxuHy9Nrb6ST74/PWGNdRXZsGR+o/tzugLXnYHMT5YGYIEF&#13;
+Flhg3WxY0jtLTq962fyOz7r5mE+/wIKClV51da32a7Mu4z71ssEtBbZSi5FxlgLHVetbtQa7eRWr&#13;
+1rdqDRb2e9X6WK1Bt1u2an2s1qBhpUobm+teVmvwRzMPHzcczXDmBSywwAILLLChw5JyAbYqWPvg&#13;
+AvmvvX2RLB5gq4KVJ0PIICmXOI7nYbncXl9gm6FOOvssewAAAABJRU5ErkJggg==</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>
